@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom left, #ffffff 0%, #8686ac 100%);
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 50vw;
+  height: 50vh;
+  background: none;
+}
+
+button {
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  width: 9%;
+  height: 17.777%;
+  cursor: pointer;
+  box-shadow: 0px 0px 8px 10px rgba(0, 0, 0, 0.2);
+}
+button:nth-child(1):hover {
+  background-color: #3c3cf7;
+  color: #ffffff;
+}
+button:nth-child(2):hover {
+  background-color: #588bfa;
+  color: #ffffff;
+}
+button:nth-child(3):hover {
+  background-color: rgb(180, 53, 75);
+  color: #ffffff;
+}
+button:nth-child(4):hover {
+  background-color: #141429;
+  color: #ffffff;
+}
+button:nth-child(5):hover {
+  background-color: #bb0000;
+  color: #ffffff;
+}
